@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    background: white;
+}
+
+/* ------------Heading--------- */
+
+header {
+    margin: 0;
+}
+
+#logo {
+    background-image: url("logo.JPG");
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 150px;
+    max-width: 100%;
+    background-color: white
+
+}
+
+
+/*------Navbar-----*/
+
+
+ ul {
+    letter-spacing: 8px;
+    background-color: grey;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+}
+ul li {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    float: none;
+   
+
+}
+
+/*------Navbar Hover-----*/
+
+
+
+ a:link {
+    color: white;
+    text-decoration: none;
+    }
+  
+     a:visited {
+     color: white;
+     text-decoration: none;
+        }
+    
+    a:hover {
+    color: black;
+    }
+
+/*------Start Image and text-----*/
+
+#start-picture {
+  background-image: url ("jobb.jpg");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------About section-----*/
+
+#about-welcome {
+    text-align: center;
+   position: relative;
+   left: 350px;
+   padding: 100px;
+  
+}
+
+.about-text {
+    font-size: 18px;
+    color: black;
+    
+}
+
+
+
+/*------Formsection-----*/
+
+form {
+       max-width: 500px;
+        width: 100%;
+        border: 40;
+        border-radius: 25px;
+        background-color:grey;
+        padding: 20px;
+        font-size: 12px;
+        font-family: sans-serif;
+        align-items: center;
+        margin: auto;
+    } 
+}
+
+
+
+/*------Location Section-----*/
+
+#location {
+    background-color: grey;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#left-about{
+    padding-top: 2px;
+    width: 50%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 2px;
+    width: 50%;
+    float: right;
+}
+
+
+
+
+/*------Footer-----*/
+
+
+h4 {
+    color: white;
+    font-size: 18px;
+    
+}
+
+p  {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+
+
+    
+    
+
+    
+}
+
+
