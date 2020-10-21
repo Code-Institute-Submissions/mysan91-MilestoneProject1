@@ -80,15 +80,20 @@ o	Google Fonts
 Testing
 
 
-Testing 
-
 When testing i have been working with validator.w3.org for the HTML and for the CSS jogsaw.w3.org validator. 
 
 When testing the first time i got a few errors regarding the icon links. And the links to each site. I first started doint the project in visual studios but later on changed to gitpod and then i hadent made a few changes to connect each website. 
-And i also got a warning regardning one section that lacked a h element. 
+And i also got a warning regardning one section that lacked a h element. And that has been changed so the warning isent showing. 
+
+Testing later i got a few errors about the social links and icons that the end tag of <a> was missing. 
+The problem was then fixed and the error did not show again. 
+Also one paragraph text missed the end tag and the problem was fixed. 
+
+A lot of missing end tags at each time for testing. All has been fixed. 
 
 
 
+When validating the Style css i got no errors. 
 
 
 Deployment 
@@ -97,6 +102,7 @@ Deployment
 
 
 Credits 
+
 Content 
 The content is from my partner and me. 
 

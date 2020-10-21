@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body {
-    background: white;
-}
 
 /* ------------Heading--------- */
 
@@ -69,20 +66,87 @@ ul li {
 /*------Start Image and text-----*/
 
 #start-picture {
-  background-image: url ("jobb.jpg");
+  height:600px;
+    width: 100%;
+    background: url("https://raw.githubusercontent.com/mysan91/MilestoneProject1/master/assets/images/fleet.JPG") no-repeat center center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: roboto;
+    align-items: center;
+   
+}
+
+
+/*------form----*/
+
+
+#form-center {
+    border-radius: 10px;
+    background-color: grey;
+    box-sizing: border-box;
+    font-family: roboto;
+    max-width: 550px;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
+
+
+
+    
+ 
+
+   
+   
+    
+     
 
 }
 
 
+h2 {
+font-family: roboto;
+color: white;
+}
+
+
+input {
+    font-size: 12px;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 5px 0 5px;
+    border-radius: 4px;
+}
+
+textarea {
+    font-size: 12px;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 5px 0 5px;
+    border-radius: 4px;
+    
+}
+
+
+#submit{
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+  }
 
 
 
-
-
-
-
-
-
+  #submit:focus, #submit:hover{
+    background-color: darkgray;
+  }
 
 
 
@@ -92,35 +156,23 @@ ul li {
 
 #about-welcome {
     text-align: center;
-   position: relative;
-   left: 350px;
-   padding: 100px;
-  
+   margin-top: 100px;
+   margin-bottom: 100px;
+ 
 }
 
 .about-text {
-    font-size: 18px;
+    font-size: 16px;
     color: black;
+    text-align: center;
+    
+    
+ 
     
 }
-
-
-
-/*------Formsection-----*/
-
-form {
-       max-width: 500px;
-        width: 100%;
-        border: 40;
-        border-radius: 25px;
-        background-color:grey;
-        padding: 20px;
-        font-size: 12px;
-        font-family: sans-serif;
-        align-items: center;
-        margin: auto;
-    } 
 }
+
+
 
 
 
@@ -162,6 +214,7 @@ form {
 h4 {
     color: white;
     font-size: 18px;
+    font-family: sans-serif;
     
 }
 
@@ -170,6 +223,7 @@ p  {
     font-size: 16px;
     letter-spacing: 1px;
     padding: 10px;
+    font-family: sans-serif;
 
 
     
