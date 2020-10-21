@@ -44,6 +44,17 @@ Fonts being used is Roberto.
 And the icons is from font Awsome and i adjusted the size of the icons so it looks more appealing. 
 
 
+The Index site
+Is the home page and it will be a navigation bar and a welcome note and one picture. 
+
+The about site 
+Here is a shorter text about the company, visually a bit text and then the navigation bar and footer i showing. 
+The Gallery site 
+In the Gallery i have 4 pictures of the machines and a shorter text what the picture is about. 
+
+The contact site 
+On this site there is a form where you can send a request or just a question. 
+
 
 
 
